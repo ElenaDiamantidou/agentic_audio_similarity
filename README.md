@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```
-main.py
+python main.py
 ```
 
 ## Project Structure

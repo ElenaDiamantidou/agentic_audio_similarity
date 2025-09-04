@@ -17,8 +17,8 @@ This project provides a **modular and extensible music similarity pipeline** des
 ## Usage
 
 1. Instantiate your data loader.
-2. Initialize the `MusicSimilarityAgent` with the loader.
-3. Call `predict_similarity(perf_id1, perf_id2)` to get:
+2. Initialise the `agent=MusicSimilarityAgent` with the loader.
+3. Call the agent `agent.invoke(inputs)` to get:
    - A similarity score [0,1]
    - A natural language explanation of contributing features
 

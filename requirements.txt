@@ -1,0 +1,11 @@
+langchain==0.3.27
+deepdish
+wget
+gdown
+numpy==1.23.5
+h5py
+scikit-learn
+joblib
+pandas
+sentence-transformers
+torch

@@ -8,10 +8,10 @@ This project provides a **modular and extensible music similarity pipeline** des
 ## Features
 
 - **Multiple similarity tools:** Easily plug in new audio or metadata-based similarity measures.
-- **Robust semantic metadata similarity:** Uses sentence transformers to measure artist, title, and label similarity beyond exact matches.
+- **Semantic metadata similarity:** Uses sentence transformers to measure artist, title, and label similarity beyond exact matches.
 - **Flexible aggregation:** Supports weighted combinations or learned models (e.g., #TODO: XGBoost) for final similarity scoring.
 - **Explainability:** Returns detailed explanations per similarity tool and supports SHAP-based visual feature importance for learned aggregators.
-- **Scalable code structure:** Clean separation of concerns with tools organized under `src/tools/`, and an orchestrating agent in `src/agent/`.
+- **Scalable code structure:** Clean separation of concerns with tools organised under `src/tools/`, and an orchestrating agent in `src/agent/`.
 - **Loader integration:** Compatible with DaTACOS data and ready for new feature sources like CLAP or MERT embeddings.
 
 ## Usage
